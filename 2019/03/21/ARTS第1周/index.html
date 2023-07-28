@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="Algorithm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ARTS第1周">
+<meta property="og:url" content="http://example.com/2019/03/21/ARTS%E7%AC%AC1%E5%91%A8/index.html">
+<meta property="og:site_name" content="胡铁花的个人小站">
+<meta property="og:description" content="Algorithm">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2019-03-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-07-28T12:00:57.583Z">
+<meta property="article:author" content="胡铁花">
+<meta property="article:tag" content="arts">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2019/03/21/ARTS%E7%AC%AC1%E5%91%A8/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>ARTS第1周 | 胡铁花的个人小站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">胡铁花的个人小站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-分类">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about-me">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>about me</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2019/03/21/ARTS%E7%AC%AC1%E5%91%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="胡铁花">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="胡铁花的个人小站">
+    </span>
+	
+	
+
+	  <div class="post-tags">
+		<i class="fa fa-tags"></i>
+		
+		<a href="/tags/undefined/"></a>
+		
+	  </div>
+
+	
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          ARTS第1周
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-03-21 00:00:00" itemprop="dateCreated datePublished" datetime="2019-03-21T00:00:00+08:00">2019-03-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 20:00:57" itemprop="dateModified" datetime="2023-07-28T20:00:57+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/arts/" itemprop="url" rel="index"><span itemprop="name">arts</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h4 id="Algorithm"><a href="#Algorithm" class="headerlink" title="Algorithm"></a>Algorithm</h4><span id="more"></span>
+
+<p>Leetcode 101 对称二叉树</p>
+<h4 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h4><p>Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).</p>
+<!-- more -->
+
+<p>For example, this binary tree <code>[1,2,2,3,4,4,3]</code> is symmetric:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    1</span><br><span class="line">   / \</span><br><span class="line">  2   2</span><br><span class="line"> / \ / \</span><br><span class="line">3  4 4  3</span><br></pre></td></tr></table></figure>
+
+
+
+<p>But the following <code>[1,2,2,null,3,null,3]</code> is not:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">  1</span><br><span class="line"> / \</span><br><span class="line">2   2</span><br><span class="line"> \   \</span><br><span class="line"> 3    3</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>Note:</strong><br>Bonus points if you could solve it both recursively and iteratively.</p>
+<h4 id="解法一"><a href="#解法一" class="headerlink" title="解法一"></a>解法一</h4><p>递归解法</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isSymmetric</span><span class="params">(TreeNode root)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (root == <span class="literal">null</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="keyword">return</span> isSymmetric(root.left, root.right);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">boolean</span> <span class="title function_">isSymmetric</span><span class="params">(TreeNode left, TreeNode right)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (left == <span class="literal">null</span> &amp;&amp; right == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> ((left == <span class="literal">null</span> ||right == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (left.val == right.val) &#123;</span><br><span class="line">            <span class="keyword">return</span> isSymmetric(left.left, right.right) &amp;&amp; isSymmetric(left.right, right.left);</span><br><span class="line">        &#125; <span class="keyword">else</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="解法二"><a href="#解法二" class="headerlink" title="解法二"></a>解法二</h4><p>非递归解法</p>
+<p>第二种解法仔细看了下才理解思路：利用一个队列，将解法一的 <code>return isSymmetric(left.left, right.right) &amp;&amp; isSymmetric(left.right, right.left);</code> 转换为将这四个节点放入一个队列中，每次弹出两个，比较这两个节点是否相等。代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> boolrarn <span class="title function_">isSymmetric</span><span class="params">(TreeNode root)</span> &#123;</span><br><span class="line">  <span class="keyword">if</span>(root == <span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  Queue&lt;TreeNode&gt; q = <span class="keyword">new</span> <span class="title class_">LinkedList</span>&lt;&gt;();</span><br><span class="line">  q.add(root.left);</span><br><span class="line">  q.add(root.right);</span><br><span class="line">  <span class="keyword">while</span>(!q.isEmpty()) &#123;</span><br><span class="line">    <span class="type">TreeNode</span> <span class="variable">t1</span> <span class="operator">=</span> q.poll();</span><br><span class="line">    <span class="type">TreeNode</span> <span class="variable">t2</span> <span class="operator">=</span> q.poll();</span><br><span class="line">    <span class="keyword">if</span>(t1==<span class="literal">null</span> &amp;&amp; t2==<span class="literal">null</span>) contuine;</span><br><span class="line">    <span class="keyword">if</span>(t1==<span class="literal">null</span> || t2==<span class="literal">null</span>) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">if</span>(t1.val==t2.val)&#123;</span><br><span class="line">      q.add(t1.left);</span><br><span class="line">      q.add(t2.right);</span><br><span class="line">      q.add(t1.right);</span><br><span class="line">      q.add(t2.left);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Reviews"><a href="#Reviews" class="headerlink" title="Reviews"></a>Reviews</h4><p>这是一篇关于react和vue比较的文章</p>
+<p>原文链接：<a target="_blank" rel="noopener" href="https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd">https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd</a></p>
+<p>作者记录了用这两种框架写一个相同待办清单app的过程，比较了二者的异同。</p>
+<h5 id="如何改变数据"><a href="#如何改变数据" class="headerlink" title="如何改变数据"></a>如何改变数据</h5><p>vue的data object：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">data() &#123;</span><br><span class="line">  return &#123;</span><br><span class="line">    list: [</span><br><span class="line">      &#123;</span><br><span class="line">        &#x27;tofo&#x27;: &#x27;clean the room&#x27;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        &#x27;todo&#x27;: &#x27;buy milk&#x27;</span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+
+<p>react的state object:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">constructor(pros) &#123;</span><br><span class="line">  super(pros);</span><br><span class="line">  this.state = &#123;</span><br><span class="line">    list: [</span><br><span class="line">      &#123;</span><br><span class="line">        &#x27;todo&#x27;: &#x27;clean the house&#x27;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        &#x27;todo&#x27;: &#x27;buy milk&#x27;</span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>对一个数据：name:”Sunil”，</p>
+<p>vue:引用：this.name;改变： this.name &#x3D; ‘John’；</p>
+<p>react: 引用：this.state.name, 改变：this.setState({name: ‘John’})</p>
+<p>可以看出react在书写上要麻烦一些，这里有一段解释：</p>
+<blockquote>
+<p><em>This is because React wants to re-run certain life cycle hooks, [such as] componentWillReceiveProps, shouldComponentUpdate, componentWillUpdate, render, componentDidUpdate, whenever state changes. It would know that the state has changed when you call the setState function. If you directly mutated state, React would have to do a lot more work to keep track of changes and what lifecycle hooks to run etc. So to make it simple React uses setState.</em></p>
+</blockquote>
+<p>大意是：react想重复运行几个生命周期钩子，比如render等，当你调用setState函数时，react知道状态改变了。如果你直接操作状态，react就不得不做更多的工作来跟踪变化以及决定应该运行什么生命周期钩子函数。为了保持简单react使用了setState。</p>
+<h5 id="如何创建一个条目"><a href="#如何创建一个条目" class="headerlink" title="如何创建一个条目"></a>如何创建一个条目</h5><p>react：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">createNewToDoItem = () =&gt; &#123;</span><br><span class="line">    this.setState( (&#123; list, todo &#125;) =&gt; (&#123;</span><br><span class="line">      list: [</span><br><span class="line">          ...list,</span><br><span class="line">        &#123;</span><br><span class="line">          todo</span><br><span class="line">        &#125;</span><br><span class="line">      ],</span><br><span class="line">      todo: &#x27;&#x27;</span><br><span class="line">    &#125;)</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; </span><br><span class="line">       value=&#123;this.state.todo&#125; </span><br><span class="line">       onChange=&#123;this.handleInput&#125;/&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">handleInput = e =&gt; &#123;</span><br><span class="line">  this.setState(&#123;</span><br><span class="line">    todo: e.target.value</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>在react中，value通过几个绑定在一起的函数自动更新其值。我们添加一个onchange的监听器在输入域。每当输入域的值变化时handleInput函数就会执行。</p>
+<p>Vue：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">createNewToDoItem() &#123;</span><br><span class="line">    this.list.push(</span><br><span class="line">        &#123;</span><br><span class="line">            &#x27;todo&#x27;: this.todo</span><br><span class="line">        &#125;</span><br><span class="line">    );</span><br><span class="line">    this.todo = &#x27;&#x27;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; v-model=&quot;todo&quot;/&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>在vue中有一个handle:v-model在输入域中，这允许我们做一件叫做two-way-binding的（双向绑定）事情，v-model将输入域与todoItem这个数据对象绑定，二者同步变化。</p>
+<h5 id="如何传递事件监听器"><a href="#如何传递事件监听器" class="headerlink" title="如何传递事件监听器"></a>如何传递事件监听器</h5><p>react:</p>
+<p>点击按钮创建新条目：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button className=”ToDo-Add” onClick=&#123;this.createNewToDoItem&#125;&gt;+&lt;/div&gt;.</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=”text” onKeyPress=&#123;this.handleKeyPress&#125;/&gt;.</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">handleKeyPress = (e) =&gt; &#123;</span><br><span class="line">if (e.key === ‘Enter’) &#123;</span><br><span class="line">this.createNewToDoItem();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>Vue:</p>
+<p>只需使用 <strong>@</strong> 符号，然后绑定相应的事件监听器。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=”ToDo-Add” @click=”createNewToDoItem()”&gt;+&lt;/div&gt; </span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=”text” v-on:keyup.enter=”createNewToDoItem”/&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h4><p>​	在微博上发现一个leetcode刷题神器，在vscode中搜索插件，直接输入leetcode,第一个就是，安装之后登录自己的leetcode账号，可以享受沉浸式刷题体验，该插件直接抓取题目到java代码的注视中，写好后可以直接点击提交，会显示提交结果，网站上的信息基本都有，值得一试。</p>
+<h4 id="Shares"><a href="#Shares" class="headerlink" title="Shares"></a>Shares</h4><p>​	最近项目用到一个开源在线演示工具<a target="_blank" rel="noopener" href="https://github.com/hakimel/reveal.js">reveal.js</a>，基于它做个展示平台。最近刚开始着手，动手的时候看了一点点工具所提供的功能就开始动手写代码，遇到问题就在那里调试半天，找不出问题，怀疑这里怀疑那里，向实验室同学询问，同学有条不紊的帮我调试，跟踪问题十分熟练，然后去看工具包提供的api，仔细看其中的说明，找到了出问题的地方，使任务向前推进了一步。</p>
+<p>​	在平时的开发中，一开始还是要对所用的框架或者工具有一个比较全面的认识，它能够提供哪些功能，可能有哪些坑，心里对这些问题先有个大致了解了再去动手，可能会省下不少时间。最好的入手点应该还是去看官方文档，毕竟最权威。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/arts/" rel="tag"># arts</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/03/18/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E5%9F%BA%E7%A1%80/" rel="prev" title="知识图谱基础">
+      <i class="fa fa-chevron-left"></i> 知识图谱基础
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/03/25/https%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3/" rel="next" title="https协议详解">
+      https协议详解 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Algorithm"><span class="nav-number">1.</span> <span class="nav-text">Algorithm</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">2.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%A3%E6%B3%95%E4%B8%80"><span class="nav-number">3.</span> <span class="nav-text">解法一</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%A3%E6%B3%95%E4%BA%8C"><span class="nav-number">4.</span> <span class="nav-text">解法二</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Reviews"><span class="nav-number">5.</span> <span class="nav-text">Reviews</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E6%95%B0%E6%8D%AE"><span class="nav-number">5.1.</span> <span class="nav-text">如何改变数据</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%9D%A1%E7%9B%AE"><span class="nav-number">5.2.</span> <span class="nav-text">如何创建一个条目</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BC%A0%E9%80%92%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8"><span class="nav-number">5.3.</span> <span class="nav-text">如何传递事件监听器</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Tips"><span class="nav-number">6.</span> <span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Shares"><span class="nav-number">7.</span> <span class="nav-text">Shares</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">胡铁花</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">胡铁花</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
